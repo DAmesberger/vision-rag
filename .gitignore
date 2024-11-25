@@ -1,3 +1,5 @@
+# nix
+/result
 # Ignore vscode
 /.vscode
 /DB
@@ -172,3 +174,12 @@ SOURCE_DOCUMENTS/.DS_Store
 sessions/
 static/images/
 uploaded_documents/
+# Devenv
+.devenv*
+devenv.local.nix
+
+# direnv
+.direnv
+
+# pre-commit
+.pre-commit-config.yaml
